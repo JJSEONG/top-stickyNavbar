@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.menu {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+}
+.menu-wrap {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+}
+#logo {
+    display: inline-block;
+    margin-top: 18px;
+}
+.menu-bar {
+    float: right;
+    overflow: hidden;
+}
+.menu-bar li {
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 70px;
+}
+section {
+    width: 100%;
+    padding: 30px 0;
+    background-color: lightgrey;
+}
+section .container {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+}
